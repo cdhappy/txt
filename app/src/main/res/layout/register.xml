@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".MainActivity">
+
+
+
+    <TextView
+        android:id="@+id/appname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello University"
+        android:textColor="#ffff00"
+        android:textSize="36sp"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="80dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:text="Username"
+        android:textSize="28sp"
+        android:textColor="#ffff00"
+        android:gravity="center"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appname"/>
+    <EditText
+        android:id="@+id/register_username"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:background="#ffffff"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="100dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appname"/>
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:text="Password"
+        android:textSize="28sp"
+        android:textColor="#ffff00"
+        android:gravity="center"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/register_username"/>
+    <EditText
+        android:id="@+id/register_password"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:inputType="textPassword"
+        android:background="#ffffff"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textview2"/>
+    <TextView
+        android:id="@+id/textview3"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:text="Repeat Password"
+        android:textSize="28sp"
+        android:textColor="#ffff00"
+        android:gravity="center"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/register_password"/>
+    <EditText
+        android:id="@+id/register_repassword"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:inputType="textPassword"
+        android:background="#ffffff"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textview3"/>
+
+    <Button
+        android:id="@+id/register_register"
+        android:layout_width="280dp"
+        android:layout_height="55dp"
+        android:gravity="center"
+        android:textColor="#cc0000"
+        android:text="Register"
+        android:textSize="20sp"
+        android:background="@drawable/button_set"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="70dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/register_repassword"/>
+
+
+</android.support.constraint.ConstraintLayout>

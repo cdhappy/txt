@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name = "colleges">
+        <item>CQU</item>
+        <item>SCU</item>
+        <item>Beking</item>
+    </string-array>
+    <string-array name = "majors">
+        <item>Software</item>
+        <item>Chemistry</item>
+    </string-array>
+    <string-array name = "Years">
+        <item>2018</item>
+        <item>2017</item>
+    </string-array>
+</resources>
